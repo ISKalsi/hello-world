@@ -39,5 +39,5 @@ int main()
     }
     cout<<maxe<<" "<<mine<<endl;
     
-    return 0;
+    return 1;
 }
