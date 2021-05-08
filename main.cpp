@@ -12,15 +12,15 @@ using namespace std;
 int main()
 {
     int a[20];
-    int n;
-    cin>>n;
-    for(int i=0;i<n;i++)
+    int N;
+    cin>>N;
+    for(int i=0;i<N;i++)
     {
         cin>>a[i];
     }
     int maxe=a[0];
     int mine=INT_MAX;
-    for(int i=1;i<n;i++ )
+    for(int i=1;i<N;i++ )
     {
         if(a[i]>maxe)
         {
